@@ -1,0 +1,42 @@
+(single seller shop)
+
+Userdetails:
+    full name
+    email
+    passwordcart
+    isadmin
+    orders
+    contact
+    picture
+
+Product details:
+    name
+    price
+    image
+    discount
+    bg color
+    panelcolor
+    text color
+
+/:
+    signup
+    login
+
+/shop:
+    shop
+
+/users/cart:
+    cart
+
+/admin:
+    admin panel
+
+/owner/products:
+    show all products
+
+/owner/admin:
+    show admin panel to create products
+
+1. setting up cookies
+2. encypted password
+3. signed data from jwt
